@@ -12,5 +12,5 @@ class VirtualPoint {
   }
    
    
-  const newVPoint = { x : 13, y : 12};
+  const newVPoint : VirtualPoint = {y : 1 , x : 55}
   logPoint(newVPoint);
