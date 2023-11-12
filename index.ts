@@ -1,29 +1,16 @@
-class Student {
-    fullName: string;
-    constructor(
-      public firstName: string,
-      public middleInitial: string,
-      public lastName: string
-    ) {
-      this.fullName = firstName + " " + middleInitial + " " + lastName;
+class VirtualPoint {
+    x: number;
+    y: number;
+   
+    constructor(x: number, y: number) {
+      this.x = x;
+      this.y = y;
     }
   }
-   
-  interface Person {
-    firstName: string;
-    lastName: string;
+  function logPoint(p: VirtualPoint) {
+    console.log(`${p.x}, ${p.y}`);
   }
    
-  function greeter(person: Person) {
-    return "Hello, " + person.firstName + " " + person.lastName;
-  }
    
-  let user = new Student("Mikhouri", "Mikhouri.", "User");
-   
-  document.body.textContent = greeter(user);
-
-  let world = false; 
-
-  type WindowStates = "open" | "closed" | "minimized";
-
-  const myWindow : WindowStates = "open"
+  const newVPoint = { x : 13, y : 12};
+  logPoint(newVPoint);

@@ -1,16 +1,12 @@
-var Student = /** @class */ (function () {
-    function Student(firstName, middleInitial, lastName) {
-        this.firstName = firstName;
-        this.middleInitial = middleInitial;
-        this.lastName = lastName;
-        this.fullName = firstName + " " + middleInitial + " " + lastName;
+var VirtualPoint = /** @class */ (function () {
+    function VirtualPoint(x, y) {
+        this.x = x;
+        this.y = y;
     }
-    return Student;
+    return VirtualPoint;
 }());
-function greeter(person) {
-    return "Hello, " + person.firstName + " " + person.lastName;
+function logPoint(p) {
+    console.log("".concat(p.x, ", ").concat(p.y));
 }
-var user = new Student("Mikhouri", "Mikhouri.", "User");
-document.body.textContent = greeter(user);
-var world = false;
-var myWindow = "open";
+var newVPoint = { x: 13, y: 12 };
+logPoint(newVPoint);
