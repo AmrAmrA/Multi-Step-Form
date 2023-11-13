@@ -1,11 +1,14 @@
-class VirtualPoint {
-    constructor(x, y) {
+var VirtualPoint = /** @class */ (function () {
+    function VirtualPoint(x, y) {
         this.x = x;
         this.y = y;
     }
-}
+    return VirtualPoint;
+}());
 function logPoint(p) {
-    console.log(`${p.x}, ${p.y}`);
+    console.log("".concat(p.x, ", ").concat(p.y));
 }
-const newVPoint = { y: 1, x: 55 };
+var newVPoint = { y: 1, x: 55, };
 logPoint(newVPoint);
+var arr;
+var newArray = ["hello", "World", "Everybody"];

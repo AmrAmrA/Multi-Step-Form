@@ -12,5 +12,9 @@ class VirtualPoint {
   }
    
    
-  const newVPoint : VirtualPoint = {y : 1 , x : 55}
+  const newVPoint : VirtualPoint = {y : 1, x : 55,}
   logPoint(newVPoint);
+
+ let arr : string[]; 
+
+  const newArray : typeof arr = ["hello", "World", "Everybody"]
