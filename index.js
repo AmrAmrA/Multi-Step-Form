@@ -12,5 +12,3 @@ var newVPoint = { y: 1, x: 55 };
 logPoint(newVPoint);
 var arr;
 var newArray = ["hello", "World", "Everybody"];
-var newMyObject = { first: "Amir" };
-console.log(newMyObject.first, newMyObject.lastName);

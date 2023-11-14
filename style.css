@@ -1,0 +1,6 @@
+:root {
+    --valid-form            : hsl(243, 100%, 62%); 
+    --required-form         : hsl(354, 84%, 57%); 
+    --button-backGround     : hsl(213, 96%, 18%); 
+    --next-step             : hsl(206, 94%, 87%); 
+}

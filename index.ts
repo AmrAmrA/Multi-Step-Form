@@ -17,9 +17,3 @@ logPoint(newVPoint);
 let arr: string[];
 
 const newArray: typeof arr = ["hello", "World", "Everybody"]; 
-
-interface myObject {first : string, lastName ? : string}
-
-const newMyObject: myObject = {first : "Amir"}
-
-console.log(newMyObject.first, newMyObject.lastName);
