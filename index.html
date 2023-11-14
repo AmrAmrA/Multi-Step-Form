@@ -3,23 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Multi-step form</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-
+  <main>
+    <div class="form__container">
+      <img src="assets/images/bg-sidebar-desktop.svg" alt="">
+      <div class="step__one">
+          <div class="info__titles">
+            <h1>Personal Info</h1>
+            <h2>Please provide your name, email address, and phone number.</h2>
+          </div>
+        <form action="" class="personalInfos__form">
+          <label for="name" aria-placeholder="Vanessa Mint"> Name</label>
+          <input type="text" name="name" id="name" required placeholder="Vanessa Mint">
+          <label for="email" aria-placeholder="Vanessa Mint">Email Address</label>
+          <input type="text" name="email" id="email" required placeholder="vanessamint@hotmail.fr">
+          <label for="phoneNumber" aria-placeholder="Vanessa Mint">Phone Number</label>
+          <input type="text" name="phoneNumber" id="phoneNumber" required placeholder="e.g. +1 234 567 890">
+          <button>Next Step</button>
+        </form>
+      </div>
+    </div>
+  </main>
   <!-- Sidebar start -->
 
-  Step 1
+  <!-- Step 1
   Your info
 
   Step 2
@@ -29,12 +46,12 @@
   Add-ons
 
   Step 4
-  Summary
+  Summary -->
 
   <!-- Sidebar end -->
 
   <!-- Step 1 start -->
-
+<!-- 
   Personal info
   Please provide your name, email address, and phone number.
 
@@ -47,13 +64,13 @@
   Phone Number
   e.g. +1 234 567 890
 
-  Next Step
+  Next Step -->
 
   <!-- Step 1 end -->
 
   <!-- Step 2 start -->
 
-  Select your plan
+  <!-- Select your plan
   You have the option of monthly or yearly billing.
 
   Arcade
@@ -69,12 +86,12 @@
   Yearly
 
   Go Back
-  Next Step
+  Next Step -->
 
   <!-- Step 2 end -->
 
   <!-- Step 3 start -->
-
+<!-- 
   Pick add-ons
   Add-ons help enhance your gaming experience.
 
@@ -91,38 +108,38 @@
   +$2/mo
 
   Go Back
-  Next Step
+  Next Step -->
 
   <!-- Step 3 end -->
 
   <!-- Step 4 start -->
 
-  Finishing up
-  Double-check everything looks OK before confirming.
+  <!-- Finishing up
+  Double-check everything looks OK before confirming. -->
 
   <!-- Dynamically add subscription and add-on selections here -->
 
-  Total (per month/year)
+  <!-- Total (per month/year)
 
   Go Back
-  Confirm
+  Confirm -->
 
   <!-- Step 4 end -->
 
   <!-- Step 5 start -->
 
-  Thank you!
+  <!-- Thank you!
 
   Thanks for confirming your subscription! We hope you have fun 
   using our platform. If you ever need support, please feel free 
-  to email us at support@loremgaming.com.
+  to email us at support@loremgaming.com. -->
 
   <!-- Step 5 end -->
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 <script src="index.js"></script>
 </html>

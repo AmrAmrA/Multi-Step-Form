@@ -1,6 +1,77 @@
 :root {
+    /* Primary Colors */
     --valid-form            : hsl(243, 100%, 62%); 
     --required-form         : hsl(354, 84%, 57%); 
-    --button-backGround     : hsl(213, 96%, 18%); 
+    --button-background     : hsl(213, 96%, 18%); 
     --next-step             : hsl(206, 94%, 87%); 
+    --dont-know             : hsl(228, 94%, 84%); 
+
+    /* Neutral Colors */
+    --subtitle-color        : hsl(231, 11%, 63%); 
+    --plans--background     : hsl(231, 100%, 99%); 
+    --white                 : hsl(0, 0%, 100%); 
+    --light--gray           : hsl(229, 24%, 87%); 
+    --Alabster              : hsl(231, 100%, 99%); 
+}
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    background-color: var(--plans--background);
+    margin: 200px auto;
+}
+
+.form__container {
+    margin:  0 auto;
+    width: 800px;
+    padding: 25px;
+    display: flex;
+    gap: 60px;
+    background-color: var(--white);
+    border-radius: 20px;
+
+}
+.step__one {
+    display: flex;
+    gap: 45px;
+}
+
+.step__one, .step__one form {
+    display: flex;
+    flex-direction: column;
+}
+
+.step__one h1 {
+    color: var(--button-background);
+    margin-bottom: 10px;
+}
+.step__one h2 {
+    font-size: 15px;
+    color: var(--light--gray);
+    margin-bottom: 10px;
+}
+.step__one label {
+    color: var(--button-background);
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.step__one input {
+    padding: 10px 0px 10px 5px;
+    border: 1px solid var(--light--gray);
+    border-radius: 5px;
+    margin-bottom: 30px;
 }
